@@ -10,6 +10,8 @@ namespace Hello_World_Second_Year_for_Work_with_Git
             Console.WriteLine("Hello, Second Year! ");
             Console.WriteLine("What is your name");
             string name = Console.ReadLine();
+            Console.WriteLine("What is your age");
+            int age = Convert.ToInt32(Console.ReadLine());
             Console.ReadKey();
         }
     }
